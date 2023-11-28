@@ -1,7 +1,10 @@
 import React from 'react'
+import Home from './pages/Home'
 
 export default function App() {
   return (
-    <div className='text-3xl text-blue-900'>App</div>
+    <div >
+      < Home />
+    </div>
   )
 }
