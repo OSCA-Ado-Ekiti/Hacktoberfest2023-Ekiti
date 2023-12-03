@@ -86,7 +86,7 @@ const Navbar = () => {
               <button
                 type="button"
                 onClick={toggleEventDropdown}
-                className="flex items-center lg:relative justify-between w-full py-2 px-1 group border-b-2 border-green-900 text-gray-900 rounded hover:bg-gray-100  md:border-0 md:hover:text-blue-700"
+                className="flex items-center lg:relative justify-between w-full py-2 px-1 group border-b-2 border-green-900 text-gray-900 rounded hover:bg-gray-100  md:border-0 md:hover:text-green-700"
               >
                 Event <FaAngleDown className="inline-block group h-4 w-4" />
               </button>
@@ -103,7 +103,7 @@ const Navbar = () => {
                   <li>
                     <NavLink
                       to="/EventOne"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600"
+                      className="block px-4 py-2 hover:bg-gray-100"
                     >
                       Event 1
                     </NavLink>
@@ -131,7 +131,7 @@ const Navbar = () => {
               <button
                 type="button"
                 onClick={toggleCommunityDropdown}
-                className="flex items-center lg:relative justify-between w-full py-2 px-1 border-b-2 border-green-900 lg:border-none text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:w-auto"
+                className="flex items-center lg:relative justify-between w-full py-2 px-1 border-b-2 border-green-900 lg:border-none text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:w-auto"
               >
                 Community{" "}
                 <FaAngleDown className="inline-block group h-4 w-4 " />
@@ -149,7 +149,7 @@ const Navbar = () => {
                   <li>
                     <NavLink
                       to="/CommunityOne"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="block px-4 py-2 hover:bg-gray-100 "
                     >
                       Community 1
                     </NavLink>
@@ -157,7 +157,7 @@ const Navbar = () => {
                   <li>
                     <NavLink
                       to="/CommunityTwo"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="block px-4 py-2 hover:bg-gray-100 "
                     >
                       Community 2
                     </NavLink>
@@ -165,7 +165,7 @@ const Navbar = () => {
                   <li>
                     <NavLink
                       to="/CommunityThree"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      className="block px-4 py-2 hover:bg-gray-100 "
                     >
                       Community 3
                     </NavLink>
@@ -176,14 +176,14 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/about"
-                className="block py-2 px-1 text-black border-b-2 border-green-900 lg:border-none rounded "
+                className="block py-2 px-1 text-black border-b-2 border-green-900 md:hover:text-green-700 lg:border-none rounded "
                 aria-current="page"
               >
                 About
               </NavLink>
             </li>
             <li>
-              <button className="bg-white border border-green-900 w-full text-green-900 font-bold py-2 px-4 rounded-lg lg:ml-4 mt-4 lg:mt-0">
+              <button className="bg-white border border-green-900 w-full text-green-900 font-bold py-2 px-4 rounded-lg lg:ml-4 mt-4 hover:bg-green-700 hover:text-white lg:mt-0">
                 Login
               </button>
             </li>
