@@ -1,11 +1,11 @@
 import React from "react";
 import Location from "../assets/location.png";
-import EventOne from "../assets/Event-1.png";
-import EventTwo from "../assets/Event-2.png";
-import EventThree from "../assets/Event-3.png";
-import EventFour from "../assets/Event-4.png";
-import EventFive from "../assets/Event-5.png";
-import EventSix from "../assets/Event-6.png";
+import EventOne from "../assets/event-1.png";
+import EventTwo from "../assets/event-2.png";
+import EventThree from "../assets/event-3.png";
+import EventFour from "../assets/event-4.png";
+import EventFive from "../assets/event-5.png";
+import EventSix from "../assets/event-6.png";
 import { FaAngleRight } from "react-icons/fa";
 
 const eventData = [
