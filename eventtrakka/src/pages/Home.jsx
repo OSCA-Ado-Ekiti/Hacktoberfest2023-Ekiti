@@ -12,7 +12,7 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/aboutUs";
 import EventsAround from "../components/EventsAround";
 import Carousel from "../components/carousel";
-import Newletter from "../components/newletter";
+import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
 const items = [
@@ -174,7 +174,7 @@ const Home = () => {
 
       <EventsAround />
       <Carousel />
-      <Newletter />
+      <Newsletter />
       <Footer /> 
     </div>
     
