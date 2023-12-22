@@ -43,7 +43,6 @@ const Navbar = () => {
     };
   }, [isMenuOpen]);
 
-  
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -183,14 +182,18 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <button className="bg-white border border-green-900 w-full text-green-900 font-bold py-2 px-4 rounded-lg lg:ml-4 mt-4 hover:bg-green-700 hover:text-white lg:mt-0">
-                Login
-              </button>
+              <Link to="/login">
+                <button className="bg-white border border-green-900 w-full text-green-900 font-bold py-2 px-4 rounded-lg lg:ml-4 mt-4 hover:bg-green-700 hover:text-white lg:mt-0">
+                  Login
+                </button>
+              </Link>
             </li>
             <li>
-              <button className="bg-green-900 hover:bg-green-700 w-full text-white font-light py-2 px-4 rounded-lg lg:ml-2 mt-4 lg:mt-0">
-                Sign up
-              </button>
+              <Link to= {'/signup'} >
+                <button className="bg-green-900 hover:bg-green-700 w-full text-white font-light py-2 px-4 rounded-lg lg:ml-2 mt-4 lg:mt-0">
+                  Sign up
+                </button>
+              </Link>
             </li>
           </ul>
         </div>
