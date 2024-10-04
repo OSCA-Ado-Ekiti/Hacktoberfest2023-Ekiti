@@ -3,7 +3,6 @@ import { motion, useAnimation } from "framer-motion";
 import Navbar from "../components/Navbar";
 import HeroView from "../components/HeroView";
 
-
 import Speaker01 from "../assets/Speaker_1.png";
 import Speaker02 from "../assets/Speaker_2.png";
 import Organizer01 from "../assets/Organizer_1.png";
@@ -134,6 +133,7 @@ const View = () => {
                     </div>
                 </div>
             </section>
+
             <Newsletter />
             <Footer />
         </div>
