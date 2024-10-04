@@ -12,7 +12,7 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/aboutUs";
 import EventsAround from "../components/EventsAround";
 import Carousel from "../components/carousel";
-import Newsletter from "../components/Newsletter";
+import NewsLetter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
 const items = [
@@ -105,9 +105,7 @@ const Home = () => {
         </div>
       </motion.section>
 
-
       <AboutUs />
-
 
       <section className=" flex flex-col md:flex-row justify-between items-center px-10 lg:px-20 mt-28 md:mt-32 gap-7 mb-5">
         <div>
@@ -147,7 +145,10 @@ const Home = () => {
 
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  gap-20 ">
             {items.map((item, index) => (
-              <div key={index} className="w-full h-72 shadow-lg flex flex-col rounded-bl-2xl rounded-br-2xl justify-start items-start">
+              <div
+                key={index}
+                className="w-full h-72 shadow-lg flex flex-col rounded-bl-2xl rounded-br-2xl justify-start items-start"
+              >
                 <div
                   className={`w-80 h-14 relative ${item.bgColor} rounded-tl-2xl rounded-tr-2xl`}
                 />
@@ -174,10 +175,9 @@ const Home = () => {
 
       <EventsAround />
       <Carousel />
-      <Newsletter />
-      <Footer /> 
+      <NewsLetter />
+      <Footer />
     </div>
-    
   );
 };
 
