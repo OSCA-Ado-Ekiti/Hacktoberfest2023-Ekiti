@@ -14,14 +14,14 @@ const eventData = [
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "/view",
+    link: "#",
   },
   {
     image: EventTwo,
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
   {
     image: EventThree,
