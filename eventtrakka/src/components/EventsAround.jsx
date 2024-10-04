@@ -14,7 +14,7 @@ const eventData = [
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
   {
     image: EventTwo,
@@ -28,28 +28,28 @@ const eventData = [
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
   {
     image: EventFour,
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
   {
     image: EventFive,
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
   {
     image: EventSix,
     date: { month: "OCT", day: "20" },
     title: "Backend Developers info session",
     description: "Lorem ipsum dolor sit amet consectetur. Lectus egestas.",
-    link: "#",
+    link: "/view",
   },
 
   // Add more objects in the eventData array as needed
