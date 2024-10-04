@@ -1,4 +1,3 @@
-import React from "react";
 import Location from "../assets/location.png";
 import EventOne from "../assets/event-1.png";
 import EventTwo from "../assets/event-2.png";
