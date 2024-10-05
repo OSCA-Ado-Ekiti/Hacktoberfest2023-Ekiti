@@ -5,7 +5,6 @@ import Login from "./pages/Login";
 import About from "./pages/About/About";
 import View from "./pages/View";
 import Event from "./pages/Event";
-import About from "./pages/About";
 
 export default function App() {
   return (

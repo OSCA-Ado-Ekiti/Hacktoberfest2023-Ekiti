@@ -1,13 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import aboutImage from "../assets/about-image.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Footer from "../components/Footer";
-const About = () => {
+import Footer from "./Footer";
+const HeroAbout = () => {
   return (
-    <div className=" m-0 p-0 box-border w-full">
-      <Navbar />
+    <div className=" m-0 md:pb-28 box-border w-full">
+      
       <div className="mt-40  font-pop">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -79,4 +78,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default HeroAbout;
