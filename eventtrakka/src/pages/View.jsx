@@ -8,9 +8,6 @@ import Speaker02 from "../assets/Speaker_2.png";
 import Organizer01 from "../assets/Organizer_1.png";
 import Organizer02 from "../assets/Organizer_2.png";
 
-import AboutUs from "../components/aboutUs";
-import EventsAround from "../components/EventsAround";
-import Carousel from "../components/carousel";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
@@ -70,7 +67,7 @@ const View = () => {
                         </button>
                     </div>
                     <h4 className="text-2xl mb-6 text-left text-black-600">
-                        Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.                    
+                        Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.
                     </h4>
                     <h4 className="text-2xl mb-6 text-left text-black-600">
                         Link to Register : https://bit.ly.334455
@@ -106,12 +103,12 @@ const View = () => {
                 </div>
             </section>
 
-            {/* Speaker Section */}
+            {/* Organizer Section */}
             <section className="py-10 px-4 sm:px-8 md:px-12 lg:px-20 bg-white">
                 <div className="container mx-auto text-center">
                     <h4 className="text-6xl uppercase  mb-6 text-black-600">Organizers</h4>
                     <div className="flex w-full">
-                        {/* Speaker 1 */}
+                        {/* Organizer 1 */}
                         <div className="flex md:w-1/2 flex-col items-center">
                             <div className="w-50 h-50 rounded-full overflow-hidden mb-4">
                                 <img src={Organizer02} alt="Speaker 1" className="w-full h-full object-cover" />
@@ -121,7 +118,7 @@ const View = () => {
                             <a href="/view/#" className="text-blue-500 hover:underline">View Profile</a>
                         </div>
 
-                        {/* Speaker 2 */}
+                        {/* Organizer 2 */}
                         <div className="flex md:w-1/2 flex-col items-center">
                             <div className="w-50 h-50 rounded-full overflow-hidden mb-4">
                                 <img src={Organizer01} alt="Speaker 2" className="w-full h-full object-cover" />
@@ -133,7 +130,11 @@ const View = () => {
                     </div>
                 </div>
             </section>
+            <Newsletter />
+            <Footer />
         </div>
+
+
     );
 };
 
