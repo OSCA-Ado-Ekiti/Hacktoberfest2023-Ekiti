@@ -1,4 +1,5 @@
 import React from "react";
+import TrendingEvents from "../components/TrendingEvents";
 import NewsLetter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
@@ -13,6 +14,7 @@ const Event = () => {
             and list for FREE
           </p>
         </div>
+        <TrendingEvents />
         <NewsLetter />
         <Footer />
       </div>
