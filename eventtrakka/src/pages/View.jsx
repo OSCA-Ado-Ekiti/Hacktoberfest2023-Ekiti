@@ -133,6 +133,9 @@ const View = () => {
                     </div>
                 </div>
             </section>
+
+            <Newsletter />
+            <Footer />
         </div>
     );
 };
