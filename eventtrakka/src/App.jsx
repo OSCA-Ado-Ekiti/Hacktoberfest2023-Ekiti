@@ -15,6 +15,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/view" element={<View />} />
         <Route path="/events" element={<Event />} />
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </div>
   );
